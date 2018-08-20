@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MovLancer</string>
+    
+    <string name="most_popular_movies">Most Popular Movies</string>
+    <string name="x_rating">★ %s</string>
+    <string name="loading_failed_message">Oops! We weren\'t able to retrieve your movies :(</string>
+    <string name="overview">Overview</string>
+
+    <string name="image_transition">Image transition</string>
+</resources>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/card_padding"
+        android:elevation="20dp"
+        app:cardCornerRadius="8dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/movie_iv"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_alignParentLeft="true"
+                android:layout_margin="@dimen/card_padding"
+                android:transitionName="@string/image_transition" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/card_padding"
+                android:layout_toRightOf="@id/movie_iv"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/movie_title_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/XMediumBoldTextStyle" />
+
+                <TextView
+                    android:id="@+id/movie_release_date_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/MediumBoldTextStyle" />
+
+                <TextView
+                    android:id="@+id/movie_vote_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/background_rating"
+                    android:padding="3dp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_xsmall" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/card_padding"
+                android:text="@string/overview"
+                style="@style/XMediumBoldTextStyle" />
+
+            <TextView
+                android:id="@+id/movie_overview_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/card_padding"
+                android:textSize="@dimen/text_size_small" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

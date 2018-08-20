@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="card_padding">10dp</dimen>
+
+    <!-- font sizes -->
+    <dimen name="text_size_xsmall">12dp</dimen>
+    <dimen name="text_size_small">14dp</dimen>
+    <dimen name="text_size_medium">16dp</dimen>
+    <dimen name="text_size_xmedium">18dp</dimen>
+    <dimen name="text_size_large">20dp</dimen>
+    <dimen name="text_size_xlarge">22dp</dimen>
+    <dimen name="text_size_xxlarge">24dp</dimen>
+    <dimen name="text_size_xxxlarge">28dp</dimen>
+    <dimen name="text_size_xxxxlarge">36dp</dimen>
+</resources>

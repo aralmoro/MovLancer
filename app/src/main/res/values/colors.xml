@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#b2b2b2</color>
+    <color name="colorAccent">@color/red</color>
+
+    <!-- grayscale -->
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="grey">#adadad</color>
+
+    <!-- basic colors -->
+    <color name="yellow">#F5C518</color>
+    <color name="red">#b80019</color>
+
+</resources>
